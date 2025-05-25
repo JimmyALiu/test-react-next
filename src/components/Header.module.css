@@ -1,0 +1,25 @@
+.header {
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-width: 1024px;
+    height: 80px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.logoContainer {
+    height: 100%;
+    width: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    aspect-ratio: auto;
+    height: 75%;
+    padding-bottom: 5px;
+}
